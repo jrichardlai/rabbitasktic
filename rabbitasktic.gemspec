@@ -17,8 +17,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.0"
-  s.add_dependency "omniauth"
-  s.add_dependency "omniauth", "omniauth-taskrabbit"
+  s.add_dependency "omniauth-taskrabbit"
   s.add_dependency "taskrabbit"
 
   s.add_development_dependency "sqlite3"
